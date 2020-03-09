@@ -5,4 +5,8 @@ public class Swallow extends Bird {
     public void move (){
         System.out.println("fly");
     }
+    //свойство ковариантного возврата
+    public Swallow meth (){
+        return new Swallow();
+    }
 }

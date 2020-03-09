@@ -4,7 +4,9 @@ public class Bird {
     public void move() {
         System.out.println("different ways ");
     }
-    Bird method (){
+
+    //метод фабрик
+    Bird meth (){
         return new Swallow();
     }
 }
